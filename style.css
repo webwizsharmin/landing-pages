@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
+.hero-section {
+    background-color: #1F2937;
+}
+
+ h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 40px;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+
+}
