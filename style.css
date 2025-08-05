@@ -143,7 +143,7 @@ body {
 /* Quotations section  */
 .quote {
   background-color: #E5E7EB;
-  padding: 100px;
+  padding: 100px 190px;
   display: flex;
   flex-direction: column;
   align-items: self-end;
@@ -154,10 +154,45 @@ blockquote {
   font-style: italic;
   font-weight: 300;
   color: #1F2937;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .quote p {
   margin-right: 100px;
   font-weight: 900;
 }
+
+/* Call to action section  */
+.action {
+  background-color: #3882F6;
+  margin:  100px;
+  padding: 30px 80px ;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.action p, 
+.action h3 {
+  color: #f9f9f9;
+}
+
+.action h3 {
+  font-size: 18px;
+}
+
+.action button {
+  padding: 12px 24px;
+  font-size: 18;
+  font-weight: 700;
+  background-color: #3882F6;
+  color: #f9f9f9;
+  border: 2px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* margin-right: 30px; */
+}
+
