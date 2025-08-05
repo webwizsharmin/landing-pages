@@ -43,7 +43,7 @@ body {
 }
 
 .hero header nav a:hover {
-  color: #5C2E91;
+  color: #3882F6;
 }
 
 /* Hero Content (Info + Image) */
@@ -105,7 +105,7 @@ body {
 /* Information content (image + text)  */
 .trials {
   text-align: center;
-  margin: 60px;
+  margin: 80px 60px;
 
   
 }
@@ -196,3 +196,12 @@ blockquote {
   /* margin-right: 30px; */
 }
 
+/* footer section  */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #f9f9f9;
+  padding: 20px;
+}
