@@ -101,3 +101,40 @@ body {
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0,0.1);
 }
+
+.trials {
+  text-align: center;
+  margin: 30px;
+  
+}
+
+.info img {
+  width: 250px;
+  height: 175px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px #1F2937;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 32px;
+  color: #1F2937;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 200px;
+}
+
