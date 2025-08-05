@@ -1,40 +1,103 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+/* Global styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.hero-section {
-    background-color: #1F2937;
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
- h1 {
-    color: #F9FAF8;
-    font-size: 24px;
+/* Hero Section */
+.hero {
+  padding: 40px 60px;
+  background-color: #1F2937;
 }
 
-ul {
-    list-style: none;
+/* Header inside Hero */
+.hero header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
-a {
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 50px 40px;
+.hero header nav a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #E5E7EB;
+  font-weight: 500;
+  /* transition: color 0.3s ease; */
 }
 
-ul {
-    display: flex;
-    gap: 18px;
+.hero header nav a:hover {
+  color: #5C2E91;
+}
 
+/* Hero Content (Info + Image) */
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #F9FAF8;
+}
+
+.hero-info p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #E5E7EB;
+}
+
+.hero-info button {
+  padding: 12px 28px;
+  font-size: 18;
+  font-weight: 700;
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-info button:hover {
+  background-color: #F9FAF8;
+  color: #3882F6;
+}
+
+.hero-img {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0,0.1);
 }
